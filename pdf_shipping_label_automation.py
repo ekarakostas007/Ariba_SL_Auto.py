@@ -9,7 +9,7 @@ import re
 # CONFIGURATION
 # -----------------------------
 
-BASE_FOLDER = r"S:\Sales\Customer\TOYOTA\SHIPPING\Ariba Shipping Labels"
+BASE_FOLDER = r"C:\Demo\Customer\SHIPPING\Shipping Labels"
 
 # -----------------------------
 # HELPER FUNCTIONS
@@ -18,7 +18,7 @@ BASE_FOLDER = r"S:\Sales\Customer\TOYOTA\SHIPPING\Ariba Shipping Labels"
 def get_most_recent_folder(base_folder):
     """
     Finds the folder with the most recent year in the name.
-    Assumes folder names are like: 'Ariba Shipping Labels (YYYY)'
+    Assumes folder names are like: 'Shipping Labels (YYYY)'
     """
     folders = [f for f in Path(base_folder).iterdir() if f.is_dir()]
     latest_year = None
