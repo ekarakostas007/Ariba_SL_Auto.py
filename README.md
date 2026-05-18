@@ -24,3 +24,10 @@ Implemented one-click execution through a Windows batch file for streamlined dai
 - regex
 - pypdf
 - Windows Batch Scripting
+
+---
+
+## Author  
+
+Developed by Eva Karakostas  
+M.S. Data Science | Operations Supervisor | Python Automation
